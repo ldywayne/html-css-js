@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ldy a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    box-shadow: 2px 3px 5px black;
+}
+.header{
+    display: flex;
+    width: 80%;
+    padding: 10px 0;
+    margin: auto;
+    align-items: center;
+}
+
+.public-width{
+    width: 100%;
+    margin: auto;
+}
+
+.nav ul li {
+    list-style: none;
+    display:inline-block;
+    margin-left: 80px;
+    text-align: center;
+}
+.bg{
+    background-image: url("../../home/tp/banner.jpg");
+    text-align: center;
+}
+.nav ul li a:hover{
+color: brown;
+}
+/*图片轮播*/
+.table1{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    font-size: 5px;
+    color: rgb(95, 95, 95);
+}
+.major_3_1_3_1{
+    overflow: hidden;
+    height: 250px;
+}
+
+.major_3_1_3_1_1{
+    height: 1000px;
+    width: 620px;
+    margin: 0 auto;
+    animation: m1 15s infinite;
+    font-size: 0px;
+}
+@keyframes m1{
+    0%,20%{
+        margin-top: 0px;
+    }
+    25%,45%{
+        margin-top: -250px;
+    }
+    50%,70%{
+        margin-top: -500px;
+    }
+    75%,95%{
+        margin-top: -750px;
+    }
+}
+
+.major_3_1_4_1_x{
+    display: inline-block;
+    border: rgb(255, 191, 135) solid 4px;
+    background: rgb(37, 221, 212);
+    position: relative;
+    top: 8px;
+}
+.major_3_1_4_1_1{
+    animation: m2 15s infinite;
+}
+@keyframes m2{
+    0%,20%{
+        border: rgb(37, 221, 212) solid 4px;
+    }
+    21%,99%{
+        border: rgb(255, 191, 135) solid 4px;
+    }
+}
+.major_3_1_4_1_2{
+    animation: m3 15s infinite;
+}
+@keyframes m3{
+    0%,24%{
+        border: rgb(255, 191, 135) solid 4px;
+    }
+    25%,45%{
+        border: rgb(37, 221, 212) solid 4px;
+    }
+    46%,99%{
+        border: rgb(255, 191, 135) solid 4px;
+    }
+}
+.major_3_1_4_1_3{
+    animation: m4 15s infinite;
+}
+@keyframes m4{
+    0%,49%{
+        border: rgb(255, 191, 135) solid 4px;
+    }
+    50%,70%{
+        border: rgb(37, 221, 212) solid 4px;
+    }
+    71%,99%{
+        border: rgb(255, 191, 135) solid 4px;
+    }
+}
+.major_3_1_4_1_4{
+    animation: m5 15s infinite;
+}
+@keyframes m5{
+    0%,74%{
+        border: rgb(255, 191, 135) solid 4px;
+    }
+    75%,95%{
+        border: rgb(37, 221, 212) solid 4px;
+    }
+    96%,99%{
+        border: rgb(255, 191, 135) solid 4px;
+    }
+}
+.major_3_1_4_1_1_1{
+    display: none;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 809px;
+    top: 289px;
+}
+.major_3_1_4_1_x:hover img{
+    width: 115px;
+    height: 44px;
+}
+.major_3_1_4_1_x:hover+.major_3_1_4_1_1_1{
+    display:block;
+}
+
+
+
+.md ul li{
+list-style: none;
+display: inline-block;
+margin-left: 100px;
+}
+.md a{
+    color: black;
+    text-decoration: none; 
+    font-size: small;
+}
+.md ul li a:hover{
+    color: green;
+}
+.zero{
+    width: 80%;
+    height: 100px;
+    margin:auto;
+   
+}
+.one{
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0;
+}
+.one p{
+    font-size: small;
+}
+.two{
+    width: 85%;
+    height: 30%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(243, 242, 242, 0.945);
+}
+.three img{
+    margin-left: 30px;
+}
+.footer1{
+    float: left;
+    height: 250px;
+    width: 50%;
+    border: 0 0;
+    position: absolute;
+    left: 0;
+    background: rgb(41, 41, 41);
+    color: rgb(150, 150, 150);
+}
+.footer11{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 14px;
+    color: rgb(223, 223, 223);
+}
+.footer12{
+    margin-left: 20%;
+    margin-right: 15%;
+    font-size: 5px;
+}
+.footer2{
+    float: left;
+    height: 250px;
+    width: 50%;
+    border: 0 0;
+    position: absolute;
+    left: 50%;
+    background: rgb(41, 41, 41);
+    color: rgb(150, 150, 150);
+    font-size: 5px;
+}
+.footer21{
+    padding-left: 15%;
+    height: 150px;
+    margin-top: 50px;
+    border-left: 1px solid rgb(158, 158, 158);
+}
+.footer211{
+    width: 23.33%;
+    float: left;
+}
+.footer2111{
+    color: rgb(223, 223, 223);
+    font-size: 14px;
+}
+
+
+
+
+
+
+

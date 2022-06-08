@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ldy a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    box-shadow: 2px 3px 5px black;
+}
+.header{
+    display: flex;
+    width: 80%;
+    padding: 10px 0;
+    margin: auto;
+    align-items: center;
+}
+
+.public-width{
+    width: 100%;
+    margin: auto;
+}
+
+.nav ul li {
+    list-style: none;
+    display:inline-block;
+    margin-left: 80px;
+    text-align: center;
+}
+.nav ul li a:hover{
+    color: brown;
+    }
+.banner{
+    height: 65%;
+    width: 100%;
+    background-color:#34576D;
+   
+}  
+.t{
+
+    height: 100%;
+    width: 96.7%;
+    margin: auto;
+    background-image: url(../../product/tp/bigpicbg.jpg);
+}
+.t h1{
+    text-align: center;
+    
+    color: aliceblue;
+  
+   font-size: 100px;
+    letter-spacing: 17px;
+    font-weight: normal;
+    padding-top: 70px;
+}
+.t p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: normal;
+}
+.box-enter{
+    
+    width: 80%;
+    height: 50px;
+    margin-left: 300px;
+    margin-top: 80px;
+}
+.enter{
+    float: left;
+    margin: 0 20px;
+   
+}
+.enter a{
+    border: solid 1px #fff;
+    padding: 18px 55px;
+    color: #e8e8e8;
+    display: block;
+    font-size: 18px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+/*选项卡*/
+input{
+    opacity: 0;
+}
+.m1,.m2,.m3{
+    display: none;
+    user-select: none;
+    border-top: 1px solid rgb(161, 161, 161);
+    margin: auto;
+    padding: 0px;
+    padding-bottom: 40px;
+    width: 80%;
+    position: relative;
+}
+.mm{
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    width: 23.3%;
+    padding: 15px;
+    padding-bottom: 11px;
+    margin: 10px;
+    box-shadow: #b4b4b4 0px 0px 5px;
+}
+.mm img{
+    width: 100%;
+}
+.mm p{
+    font-size: 5px;
+}
+.mm div{
+    float: right;
+    width: 60px;
+    margin-top: 10px;
+    padding: 3px 6px;
+    background: rgb(255, 92, 92);
+    font-size: 5px;
+    color: rgb(255, 255, 255);
+}
+.mm div:hover{
+    background: rgb(241, 0, 0);
+}
+.k1:checked~.m1,.k2:checked~.m2,.k3:checked~.m3{
+    display: block;
+}
+.d1{
+    width: 35%;
+    height: 1px;
+    float: left;
+}
+.l1{
+    width: 32.5%;
+    height: 1px;
+    float: left;
+}
+.l2{
+    width: 45%;
+    height: 1px;
+    float: left;
+}
+.l3{
+    width: 57.5%;
+    height: 1px;
+    float: left;
+}
+.lr1{
+    float: left;
+    width: 10%;
+    margin-bottom: 20px;
+    border-top: solid 1px rgb(112, 112, 112);
+}
+.lr2{
+    clear: both;
+}
+label{
+    float: left;
+    width: 10%;
+    text-align: center;
+    height: 60px;
+    box-sizing: border-box;
+    padding-top: 28px;
+    font-size: 14px;
+    user-select: none;
+}
+label:hover{
+    color: rgb(0, 153, 145);
+}
+
+/*页脚*/
+.footer1{
+    float: left;
+    height: 250px;
+    width: 50%;
+    border: 0 0;
+    position: absolute;
+    left: 0;
+    background: rgb(41, 41, 41);
+    color: rgb(150, 150, 150);
+}
+.footer11{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 14px;
+    color: rgb(223, 223, 223);
+}
+.footer12{
+    margin-left: 20%;
+    margin-right: 15%;
+    font-size: 5px;
+}
+.footer2{
+    float: left;
+    height: 250px;
+    width: 50%;
+    border: 0 0;
+    position: absolute;
+    left: 50%;
+    background: rgb(41, 41, 41);
+    color: rgb(150, 150, 150);
+    font-size: 5px;
+}
+.footer21{
+    padding-left: 15%;
+    height: 150px;
+    margin-top: 50px;
+    border-left: 1px solid rgb(158, 158, 158);
+}
+.footer211{
+    width: 23.33%;
+    float: left;
+}
+.footer2111{
+    color: rgb(223, 223, 223);
+    font-size: 14px;
+}
